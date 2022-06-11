@@ -8,7 +8,7 @@
 * [Report](#report)
 
 ## General info
-This is automation Test project to Check the help you could get to pay for NHS costs
+This is automation Test project to verify to get the Free NHS Costs to Wales
 	
 ## Technologies
 Project is created with:
@@ -17,7 +17,7 @@ Project is created with:
 * BDD Framework
 
 ## Scenario-outline
-Test Boundry value analysis:
+Teset Scenario Cover for Wales only
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age under 16.
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age under 19.
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age Above 19.
@@ -26,14 +26,13 @@ Test Boundry value analysis:
 To run this project, make sure Java and Maven should Installed and Java_Home and M2_Home system environment variable must be set in classpath
 
 ## Browsers
-Test support Chrome and Firefox latest browser
-* Default Browser set chrome in the Configuration.properties
-* To run in the firefox browser uncomment '#browser=firefox' in the Configuration.properties
+each test run in Chrome and Firefox browser.
+Make sure Chrome and Firefox browser are setup into the local machine where source is clone.
 * Tested Chrome Browser 102.0.5005.63 (64-bit)
 * Tested Firefox Browser 101.0 (64-bit)
 
 ## Execution
-download the project
+download or clone the project
 Open project directory in command prompt and run below command
 ```
 $ mvn clean install
