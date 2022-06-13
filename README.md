@@ -21,7 +21,10 @@ Teset Scenario Cover for Wales only
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age under 16.
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age under 19.
 * In the City Wales verify that valid age should get the free NHS dental check-ups Age Above 19.
-* 
+
+## Test-Case
+* Attached TestCase to validate scenario. attached in TestCase folder
+
 ## Setup
 To run this project, make sure Java and Maven should Installed and Java_Home and M2_Home system environment variable must be set in classpath
 
@@ -39,4 +42,5 @@ $ mvn clean install
 $ mvn exec:java -Dexec.classpathScope=test -Dexec.mainClass=io.cucumber.core.cli.Main -Dexec.args="src/test/resources/features --glue stepDefinitions
 ```
 ## Report
-Open index.html in /target/cucumber-reports folders
+* Open index.html in /target/cucumber-reports folders
+* Capability of extent report. Added required class and dependency for it. But not has implemented.
