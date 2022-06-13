@@ -17,10 +17,10 @@ Project is created with:
 * BDD Framework
 
 ## Scenario-outline
-Teset Scenario Cover for Wales only
-* In the City Wales verify that valid age should get the free NHS dental check-ups Age under 16.
-* In the City Wales verify that valid age should get the free NHS dental check-ups Age under 19.
-* In the City Wales verify that valid age should get the free NHS dental check-ups Age Above 19.
+  Teset Scenario Cover for Wales City only
+* Using checker tool verify that in the City Wales valid age user should get the free NHS help or not - Age under 16.
+* Using checker tool verify that in the City Wales valid age user should get the free NHS help or not - Age under 19.
+* Using checker tool verify that in the City Wales valid age user should get the free NHS help or not - Age above 19.
 
 ## Test-Case
 * Attached TestCase to validate scenario. attached in TestCase folder
