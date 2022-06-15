@@ -18,8 +18,8 @@ Feature: Free NHS Costs for Wales
 
     Examples:
     | browser | country | invalid dob|valid dob |
-    | chrome  | wales   |  aa-bb-ccc |13-06-2006|
-    | firefox  | wales   | 01-13-222 |13-06-2006|
+    | chrome  | wales   |  aa-bb-ccc |13-06-2007|
+    | firefox  | wales   | 01-13-222 |13-06-2007|
 
  Scenario Outline: To get the Free NHS Costs to Wales under 19
   Given Opened NHS Costs Checker in "<browser>" and clicked on start button
